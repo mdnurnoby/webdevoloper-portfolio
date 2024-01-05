@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'open sans' , sans-serif;
+}
+.orengs{
+    color: orange;
+}
+Nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: rgba(7, 1, 1, 0.953);
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: tomato;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    color: white;
+    font-size: 20;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+   margin-right: 50px;
+}
+nav a{
+   text-decoration: none;
+   color: black;
+}
