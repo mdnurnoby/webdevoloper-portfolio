@@ -3,11 +3,12 @@ body {
     font-family: 'open sans' , sans-serif;
 }
 .orengs{
-    color: orange;
+    color: rgba(255, 166, 0, 0.627);
 }
 Nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: rgba(7, 1, 1, 0.953);
@@ -36,4 +37,15 @@ nav li{
 nav a{
    text-decoration: none;
    color: black;
+}
+.header{
+    background-color:wheat ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pictures{
+    width: 500px;
 }
